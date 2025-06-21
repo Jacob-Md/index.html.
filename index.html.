@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Spin-off of "Project: Event invite"</title>
+        <style>
+            * {
+                box-sizing:border-box;
+            }
+            
+            body {
+                background:rgb(198, 201, 185);
+                padding: 20px;
+                margin: auto;
+                position: relative;
+                font-family: cursive;
+                text-align: center;
+            }
+            
+            h1 {
+                color: rgb(196, 55, 121);
+                margin: 0 0 10px;
+            }
+            
+            .sub-t {
+                margin: 0 0 20px;
+            }
+            
+            p {
+                margin-bottom: 20px;
+            }
+            
+            .invite-box {
+                background: rgb(198, 201, 185);
+                border: 3px solid black;
+                padding: 20px;
+                padding-bottom: 120px;
+                max-width: 600px;
+                margin: auto;
+                position:relative;
+            }
+            
+            ul {
+                list-style-type: none;
+                padding: 0;
+                margin: 0 0 20px 0;
+            }
+            
+            li {
+                margin: 8px 0;
+            }
+            
+            .date {
+                color: red;
+            }
+            
+            .time {
+                color: purple;
+            }
+            
+            .place {
+                color: green;
+            }
+            
+            .rsvp {
+                position: absolute;
+                bottom: 20px;
+                left: 20px;
+                font-size: 19px;
+                background-color: #c43779;
+                color: white;
+                text-decoration: none;
+                border-radius: 8px;
+                padding: 8px 16px;
+            }
+            
+            .image {
+                position: absolute;
+                bottom: 20px;
+                right: 20px;
+                width: 87px;
+            }
+            
+        </style>
+    </head>
+    <body>
+    <div class="invite-box">
+        <h1>You're invited!</h1>
+        <h2 class="sub-t">To Our Anniversary</h2>
+        
+        <p>On the occasion of our 10th Wedding Anniversary,
+we would be honored to have you join us in celebrating this special milestone.</p>
+<p>Your presence would mean the world to us as we reflect on a decade of love, laughter, and cherished memories.</p>
+
+<p>With love,</p>
+        <ul>
+            <li class="date"><strong>Date: Saturday, 24 September 2025</strong></li>
+            <li class="time"><strong>Time: Starting with cocktails at 15:00</strong></li>
+            <li class="place"><strong>Venue: Cape Town Civic Centre</strong></li>
+        </ul>
+        <a href="https://www.capetown.gov.za/City-Connect/Book/Book-a-city-facility" class="rsvp"><strong>RSVP Now</strong></a>
+        
+        <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/space/healthheart.png" alt="heart icon" class="image">
+        </div>
+    </body>
+</html>
